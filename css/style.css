@@ -1,3 +1,14 @@
+body {
+	font-size: 14px;
+	color: #333;
+	background-color: #fff;
+	letter-spacing: 1px;
+}
+
+.centered {
+	text-align: center;
+}
+
 .row-container {
 	margin: 0 20px;
 }
@@ -63,4 +74,64 @@
 
 .aboutImage {
 	max-width: 100%;
+}
+
+.links-list {
+	list-style: none;
+	margin: 3rem 0 1rem;
+	padding: 0;
+}
+
+.links-item {
+	display: inline-block;
+	position: relative;
+	margin: 0 10px;
+}
+
+.skillsSection {
+	background-color: #00b894;
+	color: #fff;
+}
+
+.skill {
+	text-align: center;
+	margin-left: 10px;
+}
+
+.chart {
+	position: relative;
+	width: 152px;
+	height: 152px;
+	display: inline-block;
+	text-align: center;
+}
+
+.chart canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.chart .percent {
+	color: #000;
+	line-height: 152px;
+	display: inline-block;
+	font-size: 35px;
+}
+
+.chart .percent:after {
+	content: '%';
+}
+
+.squareItem {
+	margin-top: 30px;
+	position: relative;
+}
+
+.squareInnerContainer {
+	position: relative;
+	padding: 50px 15px 35px;
+	text-align: center;
+	border: 2px solid #444;
+	border-top: none;
 }
