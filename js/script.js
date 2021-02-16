@@ -1,7 +1,8 @@
 jQuery(function () {
 	$('#slides').superslides({
 		animation: 'fade',
-		play: 5000,
+		animation_speed: 'slow',
+		play: 4000,
 		pagination: false,
 	});
 
