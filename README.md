@@ -18,3 +18,14 @@
    - [FancyBox](http://fancyapps.com/fancybox/3/))
 1. Navbar
    - [Bootstrap Nav](https://getbootstrap.com/docs/4.0/components/navbar/#nav)
+
+# TODO:
+
+1. Center content on nav
+1. Bigger text on nav
+1. Add in real apps on portfolio
+1. Stats section needs work, may remove...
+1. Contact me section...not happy w/
+1. Technical skills
+   - Add more
+   - Pagination buttons
