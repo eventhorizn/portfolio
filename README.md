@@ -31,3 +31,4 @@
 1. Technical skills
    - Add more
    - Pagination buttons
+1. Add resume download
