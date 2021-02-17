@@ -12,3 +12,5 @@
    - Easy pie chart (https://github.com/rendro/easy-pie-chart)
 1. For stats count up
    - [CountUp.js](https://inorganik.github.io/countUp.js/)
+1. For Portfolio items & filter
+   - [Isotope]()

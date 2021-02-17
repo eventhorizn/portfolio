@@ -192,3 +192,36 @@ body {
 	color: #00b894;
 	background-color: #fff;
 }
+
+.filter a {
+	color: #b2bec3;
+	border: 1px solid #b2bec3;
+	padding: 10px 18px;
+	display: block;
+}
+
+.filter a:hover {
+	text-decoration: none;
+}
+
+.filter li {
+	display: inline-block;
+	padding: 5px;
+}
+
+.filter .current {
+	background-color: #00b894;
+	border-color: #00b894;
+	color: #fff;
+}
+
+.filter {
+	text-align: center;
+	width: 100%;
+}
+
+.section .heading {
+	text-align: center;
+	padding-bottom: 40px;
+	width: 100%;
+}
