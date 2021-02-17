@@ -1,5 +1,3 @@
-import { CountUp } from './countUp.js';
-
 $(window).on('load', function () {
 	$('.loader .inner').fadeOut(500, function () {
 		$('.loader').fadeOut(750);
@@ -44,8 +42,6 @@ jQuery(function () {
 	});
 
 	const skillsTopOffset = $('.skillsSection').offset().top;
-	const statsTopOffset = $('.statsSection').offset().top;
-	let countUpFinished = false;
 
 	$(window).on('wheel', function () {
 		if (window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
@@ -62,17 +58,6 @@ jQuery(function () {
 					},
 				});
 			});
-		}
-
-		if (
-			!countUpFinished &&
-			window.pageYOffset > statsTopOffset - $(window).height() + 200
-		) {
-			countUp('yearsExp', 10);
-			countUp('yearsExp2', 100);
-			countUp('yearsExp3', 1000);
-			countUp('yearsExp4', 2000);
-			countUpFinished = true;
 		}
 	});
 
@@ -125,12 +110,3 @@ jQuery(function () {
 		}
 	});
 });
-
-const countUp = function (id, endVal) {
-	const cu = new CountUp(id, endVal);
-	if (!cu.error) {
-		cu.start();
-	} else {
-		console.error(cu.error);
-	}
-};
