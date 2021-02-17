@@ -71,9 +71,6 @@ jQuery(function () {
 });
 
 const countUp = function (id, endVal) {
-	// const element = document.querySelector('#' + id);
-	// const endVal = parseInt(element.innerHTML);
-
 	const cu = new CountUp(id, endVal);
 	if (!cu.error) {
 		cu.start();
