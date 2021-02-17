@@ -13,4 +13,5 @@
 1. For stats count up
    - [CountUp.js](https://inorganik.github.io/countUp.js/)
 1. For Portfolio items & filter
-   - [Isotope]()
+   - [Isotope](http://fancyapps.com/fancybox/3/)
+1. ## For viewing images on same page (portfolio section)
