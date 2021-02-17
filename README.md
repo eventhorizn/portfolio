@@ -18,6 +18,8 @@
    - [FancyBox](http://fancyapps.com/fancybox/3/))
 1. Navbar
    - [Bootstrap Nav](https://getbootstrap.com/docs/4.0/components/navbar/#nav)
+1. Loader gifs
+   - [Icons8 Preloaders](https://icons8.com/preloaders)
 
 # TODO:
 
