@@ -12,6 +12,10 @@ body {
 	letter-spacing: 1px;
 }
 
+.centered {
+	text-align: center;
+}
+
 .icon-color {
 	color: #00b894;
 }
@@ -267,6 +271,7 @@ body {
 	position: relative;
 	display: block;
 	overflow: hidden;
+	border: 1px solid #b2bec3;
 }
 
 .items .icons {

@@ -24,3 +24,4 @@
 # TODO:
 
 1. Contact me section...not happy w/
+1. Switch to minified versions of files
