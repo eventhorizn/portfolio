@@ -12,6 +12,14 @@ body {
 	letter-spacing: 1px;
 }
 
+.icon-color {
+	color: #00b894;
+}
+
+.icon-color:hover {
+	color: #02705a;
+}
+
 .row-container {
 	margin: 0 20px;
 }
