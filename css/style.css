@@ -68,6 +68,10 @@ body {
 	padding: 100px 0;
 }
 
+.sectionSmall {
+	padding: 50px 0;
+}
+
 .aboutImage {
 	max-width: 100%;
 }
@@ -352,6 +356,7 @@ body {
 
 #navigation li a {
 	color: #fff;
+	font-size: 22px;
 }
 
 .navbar-brand,
