@@ -15,7 +15,7 @@
 1. For Portfolio items & filter
    - [Isotope](https://isotope.metafizzy.co/)
 1. For viewing images on same page (portfolio section)
-   - [FancyBox](http://fancyapps.com/fancybox/3/))
+   - [FancyBox](http://fancyapps.com/fancybox/3/)
 1. Navbar
    - [Bootstrap Nav](https://getbootstrap.com/docs/4.0/components/navbar/#nav)
 1. Loader gifs
